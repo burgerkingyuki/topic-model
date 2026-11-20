@@ -1,0 +1,21 @@
+{
+  "source_jsonl": "E:\\主题建模\\LSTFM\\数据集\\文章数据\\ICLR.jsonl",
+  "source_xlsx": "E:\\主题建模\\LSTFM\\数据集\\元数据\\ICLR.xlsx",
+  "output_jsonl": "E:\\主题建模\\LSTFM\\重新复现代码\\数据集\\ICLR_standardized.jsonl",
+  "metadata_rows": 2590,
+  "metadata_unique_doi_ids": 0,
+  "metadata_unique_title_keys": 2587,
+  "metadata_duplicate_doi_ids": 0,
+  "jsonl_rows": 1034,
+  "matched_by_id_rows": 0,
+  "matched_by_title_rows": 1034,
+  "auto_generated_id_rows": 1034,
+  "matched_metadata_rows": 1034,
+  "fallback_title_rows": 0,
+  "fallback_abstract_rows": 0,
+  "empty_title_rows": 0,
+  "empty_abstract_rows": 0,
+  "empty_keywords_rows": 0,
+  "unmatched_ids": [],
+  "unmatched_count": 0
+}

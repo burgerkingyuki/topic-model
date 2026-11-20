@@ -1,0 +1,29 @@
+{
+  "source_jsonl": "E:\\主题建模\\LSTFM\\数据集\\文章数据\\Q.jsonl",
+  "source_xlsx": "E:\\主题建模\\LSTFM\\数据集\\元数据\\Q.xlsx",
+  "output_jsonl": "E:\\主题建模\\LSTFM\\重新复现代码\\数据集\\Q_standardized.jsonl",
+  "metadata_rows": 35584,
+  "metadata_unique_doi_ids": 34039,
+  "metadata_duplicate_doi_ids": 35,
+  "jsonl_rows": 1226,
+  "matched_metadata_rows": 1215,
+  "fallback_title_rows": 11,
+  "fallback_abstract_rows": 11,
+  "empty_title_rows": 0,
+  "empty_abstract_rows": 0,
+  "empty_keywords_rows": 11,
+  "unmatched_ids": [
+    "10.1070_QEL17284.xlsx",
+    "10.1070_QEL17320.xlsx",
+    "10.1070_QEL17336.xlsx",
+    "10.1070_QEL17441.xlsx",
+    "10.1070_QEL17583.xlsx",
+    "10.1070_QEL17586.xlsx",
+    "10.1088_0256-307X_37_11_110302.xlsx",
+    "10.1088_0256-307X_37_12_120301.xlsx",
+    "10.1088_0256-307X_37_5_050303.xlsx",
+    "10.1088_0256-307X_37_7_070302.xlsx",
+    "10.1088_0256-307X_37_9_090302.xlsx"
+  ],
+  "unmatched_count": 11
+}
