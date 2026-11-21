@@ -1,0 +1,6 @@
+httpx
+python-dotenv
+numpy
+scikit-learn
+tqdm
+

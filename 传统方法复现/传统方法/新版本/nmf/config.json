@@ -1,0 +1,20 @@
+{
+  "input_file": "E:/主题建模/LSTFM主题建模/传统方法/新版本/dataset/文章数据/ICLR.jsonl",
+  "metadata_file": "E:/主题建模/LSTFM主题建模/传统方法/新版本/dataset/元数据/ICLR.xlsx",
+  "output_dir": "E:/主题建模/LSTFM主题建模/传统方法/新版本/nmf/output/ICLR/k_80_topics",
+  "title_column": "Article Title",
+  "keywords_column": "Author Keywords",
+  "embedding_model_path": "E:/主题建模/LSTFM主题建模/Model/all-MiniLM-L12-v2",
+  "num_topics": 80,
+  "top_words_per_topic": 5,
+  "random_state": 42,
+  "max_features": 5000,
+  "min_df": 2,
+  "max_df": 0.9,
+  "alpha_w": 0.0,
+  "l1_ratio": 0.01,
+  "init": "nndsvd",
+  "max_iter": 1000,
+  "tol": 0.0001,
+  "top_words_for_metrics": 10
+}

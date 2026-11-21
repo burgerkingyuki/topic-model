@@ -1,0 +1,20 @@
+{
+  "input_file": "E:/主题建模/LSTFM主题建模/传统方法/新版本/dataset/文章数据/Q.jsonl",
+  "metadata_file": "E:/主题建模/LSTFM主题建模/传统方法/新版本/dataset/元数据/Q.xlsx",
+  "output_dir": "E:/主题建模/LSTFM主题建模/传统方法/新版本/bertopic/output/Q/k_80_topics",
+  "title_column": "Article Title",
+  "keywords_column": "Author Keywords",
+  "embedding_model_path": "E:/主题建模/LSTFM主题建模/Model/all-MiniLM-L12-v2",
+  "num_topics": 40,
+  "umap_n_neighbors": 15,
+  "umap_n_components": 5,
+  "umap_min_dist": 0.0,
+  "hdbscan_min_cluster_size": 5,
+  "hdbscan_min_samples": 1,
+  "hdbscan_cluster_selection_epsilon": 0.1,
+  "vectorizer_min_df": 1,
+  "vectorizer_max_df": 0.95,
+  "vectorizer_max_features": 5000,
+  "top_n_words": 10,
+  "top_words_for_metrics": 10
+}

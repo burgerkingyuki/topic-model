@@ -1,0 +1,8 @@
+httpx
+python-dotenv
+numpy
+scipy
+scikit-learn
+sentence-transformers
+torch
+tqdm

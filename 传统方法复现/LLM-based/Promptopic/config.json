@@ -1,0 +1,27 @@
+{
+  "input_path": "E:\\主题建模\\LSTFM\\传统方法复现\\dataset\\ROBOT_standardized.jsonl",
+  "output_path": "E:\\主题建模\\LSTFM\\传统方法复现\\LLM-based\\Promptopic\\output\\ROBOT_standardized.jsonl",
+  "generation_mode": "full_text",
+  "max_document_chars": 12000,
+  "generation_workers": 4,
+  "batch_size": 16,
+  "max_topics_per_document": 1,
+  "num_topics": 40,
+  "intermediate_topics": 400,
+  "collapse_strategy": "hybrid",
+  "pbm_window_size": 50,
+  "ctfidf_top_n": 100,
+  "representation_top_n": 10,
+  "use_llm_word_filter": true,
+  "random_seed": 42,
+  "demonstrations": [
+    {
+      "article": "suffering bad credit history bad credit debt consolidation loan pay debt",
+      "topics": ["finance"]
+    },
+    {
+      "article": "indian navy coast guard rescue thai vessel pirate joint operation indian navy coast guard intercepted vessel",
+      "topics": ["politics", "army"]
+    }
+  ]
+}

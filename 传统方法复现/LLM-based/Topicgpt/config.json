@@ -1,0 +1,16 @@
+{
+  "input_path": "E:\\主题建模\\LSTFM\\传统方法复现\\dataset\\ROBOT_standardized.jsonl",
+  "output_path": "E:\\主题建模\\LSTFM\\传统方法复现\\LLM-based\\Topicgpt\\output\\ROBOT_standardized.jsonl",
+  "sample_size": 1000,
+  "generation_workers": 4,
+  "assignment_workers": 6,
+  "batch_size": 16,
+  "merge_similarity_threshold": 0.5,
+  "low_frequency_removal_threshold": 3,
+  "generation_mode": "full_text",
+  "max_topic_rounds": 3,
+  "max_assignments_per_doc": 1,
+  "assignment_self_correction_retries": 10,
+  "assignment_demonstrations": [],
+  "embed_model_name": "E:\\主题建模\\LSTFM主题建模\\Model\\all-MiniLM-L12-v2"
+}

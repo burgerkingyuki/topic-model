@@ -1,0 +1,1 @@
+python run_metrics_batch.py --config metrics_batch_config.json
